@@ -2,4 +2,9 @@
 plugins {
     alias(libs.plugins.androidApplication) apply false
     alias(libs.plugins.jetbrainsKotlinAndroid) apply false
+
+    //add
+    alias(libs.plugins.kotlin.kapt) apply false
+    alias(libs.plugins.hilt.gradle) apply false
+    //
 }
